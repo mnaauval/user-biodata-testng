@@ -2,27 +2,27 @@
 <testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[<img src='file://D:\Project\Java\TestNG\UserBiodata\src\test\resources\ss\20220614_211421.PNG'height="200" width="400"/>]]>
+      <![CDATA[<img src='file://D:\Project\Java\TestNG\UserBiodata\src\test\resources\ss\20220614_213623.PNG'height="200" width="400"/>]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-06-14T21:13:46 ICT" name="Default suite" finished-at="2022-06-14T21:14:34 ICT" duration-ms="48071">
+  <suite started-at="2022-06-14T21:35:48 ICT" name="Default suite" finished-at="2022-06-14T21:36:36 ICT" duration-ms="48426">
     <groups>
     </groups>
-    <test started-at="2022-06-14T21:13:46 ICT" name="Default test" finished-at="2022-06-14T21:14:34 ICT" duration-ms="48071">
+    <test started-at="2022-06-14T21:35:48 ICT" name="Default test" finished-at="2022-06-14T21:36:36 ICT" duration-ms="48426">
       <class name="com.nexsoft.backend.UserBiodataTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:13:46 ICT" name="init" finished-at="2022-06-14T21:13:50 ICT" duration-ms="3320" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:35:48 ICT" name="init" finished-at="2022-06-14T21:35:51 ICT" duration-ms="3379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="login()[pri:1, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:13:50 ICT" name="login" finished-at="2022-06-14T21:13:52 ICT" duration-ms="2266" status="PASS">
+        <test-method signature="login()[pri:1, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:35:51 ICT" name="login" finished-at="2022-06-14T21:35:53 ICT" duration-ms="2171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="gotoCRUDBuilder()[pri:2, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:13:52 ICT" name="gotoCRUDBuilder" finished-at="2022-06-14T21:13:53 ICT" duration-ms="1418" status="PASS">
+        <test-method signature="gotoCRUDBuilder()[pri:2, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:35:53 ICT" name="gotoCRUDBuilder" finished-at="2022-06-14T21:35:55 ICT" duration-ms="1408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gotoCRUDBuilder -->
-        <test-method signature="inputDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:13:53 ICT" name="inputDataTest" data-provider="getUserBiodata" finished-at="2022-06-14T21:13:56 ICT" duration-ms="2792" status="PASS">
+        <test-method signature="inputDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:35:55 ICT" name="inputDataTest" data-provider="getUserBiodata" finished-at="2022-06-14T21:35:58 ICT" duration-ms="2872" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inputDataTest -->
-        <test-method signature="inputDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:13:56 ICT" name="inputDataTest" data-provider="getUserBiodata" finished-at="2022-06-14T21:13:59 ICT" duration-ms="3196" status="PASS">
+        <test-method signature="inputDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:35:58 ICT" name="inputDataTest" data-provider="getUserBiodata" finished-at="2022-06-14T21:36:00 ICT" duration-ms="2810" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inputDataTest -->
-        <test-method signature="inputDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:13:59 ICT" name="inputDataTest" data-provider="getUserBiodata" finished-at="2022-06-14T21:14:02 ICT" duration-ms="2961" status="PASS">
+        <test-method signature="inputDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:36:00 ICT" name="inputDataTest" data-provider="getUserBiodata" finished-at="2022-06-14T21:36:04 ICT" duration-ms="3384" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -100,7 +100,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inputDataTest -->
-        <test-method signature="inputDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:14:02 ICT" name="inputDataTest" data-provider="getUserBiodata" finished-at="2022-06-14T21:14:05 ICT" duration-ms="3062" status="PASS">
+        <test-method signature="inputDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:36:04 ICT" name="inputDataTest" data-provider="getUserBiodata" finished-at="2022-06-14T21:36:07 ICT" duration-ms="3064" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,7 +126,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inputDataTest -->
-        <test-method signature="inputDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:14:05 ICT" name="inputDataTest" data-provider="getUserBiodata" finished-at="2022-06-14T21:14:08 ICT" duration-ms="3071" status="PASS">
+        <test-method signature="inputDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:36:07 ICT" name="inputDataTest" data-provider="getUserBiodata" finished-at="2022-06-14T21:36:10 ICT" duration-ms="3143" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -152,7 +152,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inputDataTest -->
-        <test-method signature="inputDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:14:08 ICT" name="inputDataTest" data-provider="getUserBiodata" finished-at="2022-06-14T21:14:11 ICT" duration-ms="2975" status="PASS">
+        <test-method signature="inputDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:36:10 ICT" name="inputDataTest" data-provider="getUserBiodata" finished-at="2022-06-14T21:36:13 ICT" duration-ms="2933" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -178,7 +178,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inputDataTest -->
-        <test-method signature="inputDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:14:11 ICT" name="inputDataTest" data-provider="getUserBiodata" finished-at="2022-06-14T21:14:14 ICT" duration-ms="2978" status="PASS">
+        <test-method signature="inputDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:36:13 ICT" name="inputDataTest" data-provider="getUserBiodata" finished-at="2022-06-14T21:36:16 ICT" duration-ms="3006" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -204,7 +204,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inputDataTest -->
-        <test-method signature="inputDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:14:14 ICT" name="inputDataTest" data-provider="getUserBiodata" finished-at="2022-06-14T21:14:17 ICT" duration-ms="2948" status="PASS">
+        <test-method signature="inputDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:36:16 ICT" name="inputDataTest" data-provider="getUserBiodata" finished-at="2022-06-14T21:36:19 ICT" duration-ms="3006" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -230,7 +230,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inputDataTest -->
-        <test-method signature="inputDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:14:17 ICT" name="inputDataTest" data-provider="getUserBiodata" finished-at="2022-06-14T21:14:20 ICT" duration-ms="3010" status="PASS">
+        <test-method signature="inputDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:36:19 ICT" name="inputDataTest" data-provider="getUserBiodata" finished-at="2022-06-14T21:36:22 ICT" duration-ms="3027" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -256,14 +256,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inputDataTest -->
-        <test-method signature="resetTable()[pri:4, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:14:20 ICT" name="resetTable" finished-at="2022-06-14T21:14:27 ICT" duration-ms="6878" status="PASS">
+        <test-method signature="resetTable()[pri:4, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:36:22 ICT" name="resetTable" finished-at="2022-06-14T21:36:29 ICT" duration-ms="6892" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[<img src='file://D:\Project\Java\TestNG\UserBiodata\src\test\resources\ss\20220614_211421.PNG'height="200" width="400"/>]]>
+              <![CDATA[<img src='file://D:\Project\Java\TestNG\UserBiodata\src\test\resources\ss\20220614_213623.PNG'height="200" width="400"/>]]>
             </line>
           </reporter-output>
         </test-method> <!-- resetTable -->
-        <test-method is-config="true" signature="logoutAndCloseConn()[pri:0, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:14:27 ICT" name="logoutAndCloseConn" finished-at="2022-06-14T21:14:34 ICT" duration-ms="7082" status="PASS">
+        <test-method is-config="true" signature="logoutAndCloseConn()[pri:0, instance:com.nexsoft.backend.UserBiodataTest@25641d39]" started-at="2022-06-14T21:36:29 ICT" name="logoutAndCloseConn" finished-at="2022-06-14T21:36:36 ICT" duration-ms="7210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutAndCloseConn -->

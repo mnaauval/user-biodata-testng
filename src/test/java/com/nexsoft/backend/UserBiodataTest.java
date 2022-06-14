@@ -88,11 +88,13 @@ public class UserBiodataTest {
 
 		int randomVal = 1 + (int) (Math.random() * ((3 - 1) + 1));
 		if (randomVal == 1)
-			chooseFile.sendKeys("D:\\Project\\Java\\TestNG\\UserBiodata\\src\\test\\resources\\emotsad.PNG");
+			chooseFile.sendKeys("D:\\Project\\Java\\TestNG\\UserBiodata\\src\\test\\resources\\chelseeaaa.JPG");
 		else if (randomVal == 2)
 			chooseFile.sendKeys("D:\\Project\\Java\\TestNG\\UserBiodata\\src\\test\\resources\\juaracoding.JPG");
-		else
+		else if (randomVal == 3)
 			chooseFile.sendKeys("D:\\Project\\Java\\TestNG\\UserBiodata\\src\\test\\resources\\nexsoft.JPG");
+		else
+			chooseFile.sendKeys("D:\\Project\\Java\\TestNG\\UserBiodata\\src\\test\\resources\\emotsad.PNG");
 
 		sleep(500);
 
