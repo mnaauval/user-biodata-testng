@@ -1,6 +1,9 @@
 package com.nexsoft.backend;
 
 import org.testng.annotations.Test;
+
+import com.nexsoft.utilities.ScreenShoot;
+
 import org.testng.annotations.BeforeClass;
 
 import java.util.concurrent.TimeUnit;
@@ -10,12 +13,14 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 
 public class UserBiodataTest {
 
 	private WebDriver driver;
 	private JavascriptExecutor jse;
+	private ScreenShoot ss;
 
 	private void sleep(int n) {
 		try {
@@ -32,6 +37,7 @@ public class UserBiodataTest {
 		System.setProperty("webdriver.chrome.driver", "/chromedriver.exe");
 		driver = new ChromeDriver();
 		jse = (JavascriptExecutor) driver;
+		ss = new ScreenShoot();
 		driver.get(System.getProperty("url"));
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -72,29 +78,38 @@ public class UserBiodataTest {
 
 		driver.findElement(By.cssSelector("#email")).click();
 		driver.findElement(By.cssSelector("#email")).sendKeys(email);
-		
+
 		driver.findElement(By.cssSelector("#gender")).click();
 		driver.findElement(By.cssSelector("#gender")).sendKeys(gender);
-		
+
 		jse.executeScript("window.scrollBy(100, 500)", "");
-		
+
 		WebElement chooseFile = driver.findElement(By.cssSelector("input[title='file input"));
-		
-		int randomVal = 1 + (int)(Math.random() * ((3 - 1) + 1));
-		if (randomVal == 1) chooseFile.sendKeys("D:\\Project\\Java\\TestNG\\UserBiodata\\src\\test\\resources\\emotsad.PNG");
-		else if (randomVal == 2) chooseFile.sendKeys("D:\\Project\\Java\\TestNG\\UserBiodata\\src\\test\\resources\\juaracoding.JPG");
-		else chooseFile.sendKeys("D:\\Project\\Java\\TestNG\\UserBiodata\\src\\test\\resources\\nexsoft.JPG");
-		
+
+		int randomVal = 1 + (int) (Math.random() * ((3 - 1) + 1));
+		if (randomVal == 1)
+			chooseFile.sendKeys("D:\\Project\\Java\\TestNG\\UserBiodata\\src\\test\\resources\\emotsad.PNG");
+		else if (randomVal == 2)
+			chooseFile.sendKeys("D:\\Project\\Java\\TestNG\\UserBiodata\\src\\test\\resources\\juaracoding.JPG");
+		else
+			chooseFile.sendKeys("D:\\Project\\Java\\TestNG\\UserBiodata\\src\\test\\resources\\nexsoft.JPG");
+
 		sleep(500);
-		
+
 		driver.findElement(By.xpath("//a[@id='btn_save']")).click();
-		
+
 		sleep(500);
 
 	}
-	
+
 	@Test(priority = 4)
-	public void resetTable() {		
+	public void resetTable() {
+
+		jse.executeScript("window.scrollBy(0, 150)", "");
+		String file = "<img src='file://" + ss.screenShoot(driver) + "'height=\"200\" width=\"400\"/>";
+		Reporter.log(file);
+		sleep(1000);
+
 		driver.findElement(By.cssSelector(".iCheck-helper")).click();
 		driver.findElement(By.cssSelector("#apply")).click();
 		sleep(1000);
